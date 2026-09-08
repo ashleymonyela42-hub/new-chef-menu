@@ -39,6 +39,41 @@ Features:
 
 const COURSES = ['Starter', 'Main Course', 'Dessert'];
 
+type MenuItem = {
+  id: string;
+  name: string;
+  description: string;
+  course: string;
+  price: number;
+};
+
+type AppButtonProps = {
+  title: string;
+  onPress: () => void;
+  secondary?: boolean;
+  danger?: boolean;
+};
+
+type InputFieldProps = {
+  label: string;
+  value: string;
+  onChangeText: (text: string) => void;
+  placeholder?: string;
+  multiline?: boolean;
+  keyboardType?: TextInputProps['keyboardType'];
+};
+
+type CoursePickerProps = {
+  value: string;
+  onChange: (value: string) => void;
+};
+
+type MenuItemCardProps = {
+  item: MenuItem;
+  onEdit: (item: MenuItem) => void;
+  onDelete: (id: string) => void;
+};
+
 // -------------------------------------------------------
 // REUSABLE BUTTON COMPONENT
 // -------------------------------------------------------
@@ -48,7 +83,7 @@ function AppButton({
   onPress,
   secondary = false,
   danger = false,
-}) {
+}: AppButtonProps) {
   return (
     <Pressable
       onPress={onPress}
@@ -82,7 +117,7 @@ function InputField({
   placeholder,
   multiline = false,
   keyboardType = 'default',
-}) {
+}: InputFieldProps) {
   return (
     <View style={styles.inputContainer}>
       <Text style={styles.inputLabel}>{label}</Text>
@@ -107,7 +142,7 @@ function InputField({
 // COURSE PICKER COMPONENT
 // -------------------------------------------------------
 
-function CoursePicker({ value, onChange }) {
+function CoursePicker({ value, onChange }: CoursePickerProps) {
   const [visible, setVisible] = useState(false);
 
   return (
