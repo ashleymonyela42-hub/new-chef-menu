@@ -464,9 +464,6 @@ export default function App() {
         contentContainerStyle={styles.homeContainer}
       >
 
-        <Text style={styles.logoIcon}>
-          👨‍🍳
-        </Text>
 
         <Text style={styles.appTitle}>
           CHEF'S
