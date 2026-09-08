@@ -378,7 +378,7 @@ export default function App() {
   // EDIT MENU ITEM
   // -----------------------------------------------------
 
-  const editMenuItem = (item) => {
+  const editMenuItem = (item: MenuItem) => {
 
     setEditingId(item.id);
     setDishName(item.name);
