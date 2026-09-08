@@ -491,7 +491,7 @@ export default function App() {
         />
 
         <AppButton
-          title="☰ VIEW MENU"
+          title="VIEW MENU"
           onPress={() => setScreen('menu')}
         />
 
