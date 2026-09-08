@@ -724,7 +724,6 @@ export default function App() {
           <View style={styles.emptyContainer}>
 
             <Text style={styles.emptyIcon}>
-              🔍
             </Text>
 
             <Text style={styles.emptyTitle}>
@@ -779,7 +778,6 @@ export default function App() {
         <View style={styles.statCard}>
 
           <Text style={styles.statIcon}>
-            🍽️
           </Text>
 
           <Text style={styles.statNumber}>
