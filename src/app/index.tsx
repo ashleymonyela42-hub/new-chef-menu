@@ -496,7 +496,7 @@ export default function App() {
         />
 
         <AppButton
-          title="📊 MENU STATISTICS"
+          title="MENU STATISTICS"
           onPress={() => setScreen('statistics')}
         />
 
