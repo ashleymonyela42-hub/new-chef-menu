@@ -692,16 +692,8 @@ export default function App() {
 
         {/* CLEAR */}
 
-        {(searchText || selectedFilter !== 'All') && (
-          <Pressable
-            onPress={clearSearchAndFilter}
-            style={styles.clearButton}
-          >
-            <Text style={styles.clearButtonText}>
-              Clear Search & Filter
-            </Text>
-          </Pressable>
-        )}
+       
+            
 
         {/* MENU LIST */}
 
@@ -731,7 +723,7 @@ export default function App() {
 
           </View>
 
-        ) : filteredMenuItems.length === 0 ? (
+        ) :
 
           <View style={styles.emptyContainer}>
 
@@ -747,31 +739,13 @@ export default function App() {
               No menu items match your search or filter.
             </Text>
 
-            <AppButton
-              title="CLEAR SEARCH & FILTER"
-              secondary
-              onPress={clearSearchAndFilter}
-            />
-
+           
           </View>
 
-        ) : (
+        }
 
-          <FlatList
-            data={filteredMenuItems}
-            keyExtractor={(item) => item.id}
-            renderItem={({ item }) => (
-              <MenuItemCard
-                item={item}
-                onEdit={editMenuItem}
-                onDelete={deleteMenuItem}
-              />
-            )}
-            contentContainerStyle={styles.listContent}
-            showsVerticalScrollIndicator={false}
-          />
+         
 
-        )}
 
         <AppButton
           title="＋ ADD NEW ITEM"
