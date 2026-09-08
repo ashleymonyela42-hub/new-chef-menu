@@ -699,7 +699,6 @@ export default function App() {
           <View style={styles.emptyContainer}>
 
             <Text style={styles.emptyIcon}>
-              🍽️
             </Text>
 
             <Text style={styles.emptyTitle}>
