@@ -208,7 +208,7 @@ function MenuItemCard({
   item,
   onEdit,
   onDelete,
-}) {
+}: MenuItemCardProps) {
   return (
     <View style={styles.menuCard}>
 
