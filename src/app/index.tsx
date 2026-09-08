@@ -429,7 +429,7 @@ export default function App() {
   // DELETE MENU ITEM
   // -----------------------------------------------------
 
-  const deleteMenuItem = (id) => {
+  const deleteMenuItem = (id: string) => {
 
     const item = menuItems.find(
       (menuItem) => menuItem.id === id
