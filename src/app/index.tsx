@@ -425,79 +425,7 @@ export default function App() {
     setScreen('menu');
   };
 
-  // -----------------------------------------------------
-  // DELETE MENU ITEM
-  // -----------------------------------------------------
 
-  const deleteMenuItem = (id: string) => {
-
-    const item = menuItems.find(
-      (menuItem) => menuItem.id === id
-    );
-
-    if (!item) {
-      return;
-    }
-
-    Alert.alert(
-      'Delete Menu Item',
-      `Are you sure you want to delete "${item.name}"?`,
-      [
-        {
-          text: 'Cancel',
-          style: 'cancel',
-        },
-        {
-          text: 'Delete',
-          style: 'destructive',
-          onPress: () => {
-
-            setMenuItems((currentItems) =>
-              currentItems.filter(
-                (menuItem) => menuItem.id !== id
-              )
-            );
-
-            Alert.alert(
-              'Deleted',
-              `${item.name} has been removed from the menu.`
-            );
-          },
-        },
-      ]
-    );
-  };
-
-  // -----------------------------------------------------
-  // FILTER AND SEARCH MENU ITEMS
-  // -----------------------------------------------------
-
-  const filteredMenuItems = useMemo(() => {
-
-    return menuItems.filter((item) => {
-
-      const matchesSearch =
-        item.name
-          .toLowerCase()
-          .includes(searchText.toLowerCase());
-
-      const matchesCourse =
-        selectedFilter === 'All' ||
-        item.course === selectedFilter;
-
-      return matchesSearch && matchesCourse;
-    });
-
-  }, [menuItems, searchText, selectedFilter]);
-
-  // -----------------------------------------------------
-  // CLEAR SEARCH AND FILTER
-  // -----------------------------------------------------
-
-  const clearSearchAndFilter = () => {
-    setSearchText('');
-    setSelectedFilter('All');
-  };
 
   // -----------------------------------------------------
   // STATISTICS
