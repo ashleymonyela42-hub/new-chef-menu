@@ -798,7 +798,6 @@ export default function App() {
         <View style={styles.statCard}>
 
           <Text style={styles.statIcon}>
-            💰
           </Text>
 
           <Text style={styles.statNumber}>
