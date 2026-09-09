@@ -21,7 +21,7 @@ interface MenuItem {
 export default function App() {
   const [menuItems, setMenuItems] = useState<MenuItem[]>([]);
   const [screen, setScreen] = useState('home');
-  const [editingIndex, setEditingIndex] = useState(null);
+  const [editingIndex, setEditingIndex] = useState<number | null>(null);
   const [dishName, setDishName] = useState('');
   const [description, setDescription] = useState('');
   const [course, setCourse] = useState('Starter');
@@ -85,7 +85,7 @@ export default function App() {
     setScreen('add');
   };
 
-  const goToEdit = (item, index) => {
+  const goToEdit = (item: MenuItem, index: number) => {
     setDishName(item.dishName);
     setDescription(item.description);
     setCourse(item.course);
