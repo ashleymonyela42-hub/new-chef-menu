@@ -289,7 +289,7 @@ export default function App() {
   // MENU SCREEN
   const renderMenu = () => (
     <View style={styles.screen}>
-      <Text style={styles.title}>📋 MENU ITEMS</Text>
+      <Text style={styles.title}> MENU ITEMS</Text>
 
 
       <Text style={styles.filterTitle}>Filter by Course</Text>
