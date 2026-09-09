@@ -324,10 +324,7 @@ export default function App() {
     setScreen('menu');
   };
 
-  // -----------------------------------------------------
-  // EDIT MENU ITEM
-  // -----------------------------------------------------
-
+  
   const editMenuItem = (item: MenuItem) => {
 
     setEditingId(item.id);
