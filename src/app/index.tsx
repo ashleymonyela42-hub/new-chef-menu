@@ -430,7 +430,7 @@ export default function App() {
     </View>
   );
 
-  // STATISTICS SCREEN
+
   const renderStatistics = () => {
     const totalItems = menuItems.length;
 
