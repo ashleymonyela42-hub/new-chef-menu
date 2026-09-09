@@ -279,9 +279,6 @@ export default function App() {
   const [searchText, setSearchText] = useState('');
   const [selectedFilter, setSelectedFilter] = useState('All');
 
-  // -----------------------------------------------------
-  // RESET FORM
-  // -----------------------------------------------------
 
   const resetForm = () => {
     setDishName('');
