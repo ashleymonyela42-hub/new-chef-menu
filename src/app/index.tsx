@@ -485,7 +485,7 @@ export default function App() {
 
         <View style={styles.courseStatRow}>
           <Text style={styles.courseStatName}>
-            🥗 Starter
+            Starter
           </Text>
           <Text style={styles.courseStatNumber}>
             {starterCount}
