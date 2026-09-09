@@ -336,9 +336,7 @@ export default function App() {
     setScreen('edit');
   };
 
-  // -----------------------------------------------------
-  // UPDATE MENU ITEM
-  // -----------------------------------------------------
+
 
   const updateMenuItem = () => {
 
