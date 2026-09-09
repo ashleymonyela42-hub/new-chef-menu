@@ -201,7 +201,8 @@ export default function App() {
     >
       <Text style={styles.title}>
         {editingIndex !== null
-          ? 'EDIT MENU ITEM'}
+          ? 'EDIT MENU ITEM'
+          : 'ADD MENU ITEM'}
       </Text>
 
       <View style={styles.form}>
@@ -290,13 +291,6 @@ export default function App() {
     <View style={styles.screen}>
       <Text style={styles.title}>📋 MENU ITEMS</Text>
 
-      <TextInput
-        style={styles.searchInput}
-        value={searchText}
-        onChangeText={setSearchText}
-        placeholder="🔍 Search dish name..."
-        placeholderTextColor="#999"
-      />
 
       <Text style={styles.filterTitle}>Filter by Course</Text>
 
