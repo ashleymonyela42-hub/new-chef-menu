@@ -139,9 +139,7 @@ function InputField({
   );
 }
 
-// -------------------------------------------------------
-// COURSE PICKER COMPONENT
-// -------------------------------------------------------
+
 
 function CoursePicker({ value, onChange }: CoursePickerProps) {
   const [visible, setVisible] = useState(false);
