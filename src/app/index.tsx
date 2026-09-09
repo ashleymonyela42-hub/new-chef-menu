@@ -370,12 +370,6 @@ export default function App() {
     setScreen('menu');
   };
 
-
-
-  // -----------------------------------------------------
-  // STATISTICS
-  // -----------------------------------------------------
-
   const totalItems = menuItems.length;
 
   const averagePrice =
