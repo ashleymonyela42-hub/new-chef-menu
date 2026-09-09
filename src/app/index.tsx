@@ -754,10 +754,7 @@ export default function App() {
     );
   };
 
-  // -----------------------------------------------------
-  // STATISTICS SCREEN
-  // -----------------------------------------------------
-
+  
   const StatisticsScreen = () => {
 
     return (
