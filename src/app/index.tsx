@@ -163,7 +163,7 @@ export default function App() {
           onPress={goToAdd}
         >
           <Text style={styles.primaryButtonText}>
-            + ADD MENU ITEM
+           ADD MENU ITEM
           </Text>
         </TouchableOpacity>
 
@@ -172,7 +172,7 @@ export default function App() {
           onPress={() => setScreen('menu')}
         >
           <Text style={styles.secondaryButtonText}>
-            📋 VIEW MENU ITEMS
+           VIEW MENU ITEMS
           </Text>
         </TouchableOpacity>
 
