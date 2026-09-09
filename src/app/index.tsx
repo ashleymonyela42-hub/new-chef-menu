@@ -118,7 +118,7 @@ export default function App() {
                 <View style={styles.itemLeft}>
                   <Text style={styles.itemName}>{item.dishName}</Text>
                   <Text style={styles.itemDesc}>{item.description}</Text>
-                  <Text style={styles.itemCourse}>📌 {item.course}</Text>
+                  <Text style={styles.itemCourse}>{item.course}</Text>
                 </View>
                 <Text style={styles.itemPrice}>R{item.price}</Text>
               </View>
