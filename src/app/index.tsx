@@ -138,7 +138,7 @@ export default function App() {
   const renderAdd = () => (
     <ScrollView style={styles.screen}>
       <Text style={styles.title}>
-        {editingIndex !== null ? '✏️ EDIT MENU ITEM' : 'ADD MENU ITEM'}
+        {editingIndex !== null ? 'EDIT MENU ITEM' : 'ADD MENU ITEM'}
       </Text>
 
       <View style={styles.form}>
