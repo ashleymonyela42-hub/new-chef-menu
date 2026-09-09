@@ -51,9 +51,6 @@ type MenuItemCardProps = {
   onDelete: (id: string) => void;
 };
 
-// -------------------------------------------------------
-// REUSABLE BUTTON COMPONENT
-// -------------------------------------------------------
 
 function AppButton({
   title,
