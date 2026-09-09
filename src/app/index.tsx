@@ -247,9 +247,7 @@ export default function App() {
     setEditingId(null);
   };
 
-  // -----------------------------------------------------
-  // VALIDATE MENU ITEM
-  // -----------------------------------------------------
+ 
 
   const validateForm = () => {
 
