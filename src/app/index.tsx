@@ -1,7 +1,3 @@
-(No subject)
-Ashley<ashleymonyela42@gmail.com>
-
-Ashley Mohlatlego Monyela
 import React, { useState } from 'react';
 import {
   View,
