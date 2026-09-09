@@ -402,15 +402,6 @@ export default function App() {
                     </Text>
                   </TouchableOpacity>
 
-                  <TouchableOpacity
-                    style={styles.deleteButton}
-                    onPress={() =>
-                      deleteItem(originalIndex)
-                    }
-                  >
-                    <Text style={styles.}>
-                    </Text>
-                  </TouchableOpacity>
                 </View>
               </View>
             );
