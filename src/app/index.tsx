@@ -100,7 +100,7 @@ export default function App() {
   };
 
   // DELETE MENU ITEM
-  const deleteItem = (index) => {
+  const deleteItem = (index: number) => {
     Alert.alert(
       'Delete Menu Item',
       'Are you sure you want to delete this item?',
