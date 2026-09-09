@@ -401,19 +401,34 @@ export default function App() {
                      EDIT
                     </Text>
                   </TouchableOpacity>
-                  
-                 
 
+                  <TouchableOpacity
+                    style={styles.deleteButton}
+                    onPress={() =>
+                      deleteItem(originalIndex)
+                    }
+                  >
+                    <Text style={styles.deleteButtonText}>
+                      DELETE
+                    </Text>
+                  </TouchableOpacity>
+                </View>
+              </View>
+            );
+          }}
+        />
+      )}
+
+      <TouchableOpacity
         style={styles.backButton}
         onPress={goHome}
-      
+      >
         <Text style={styles.backButtonText}>
           ← BACK TO HOME
         </Text>
-      
+      </TouchableOpacity>
     </View>
   );
-
 
   const renderStatistics = () => {
     const totalItems = menuItems.length;
