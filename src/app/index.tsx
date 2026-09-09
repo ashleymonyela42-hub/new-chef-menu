@@ -181,7 +181,7 @@ export default function App() {
           onPress={() => setScreen('statistics')}
         >
           <Text style={styles.goldButtonText}>
-            📊 VIEW STATISTICS
+          VIEW STATISTICS
           </Text>
         </TouchableOpacity>
       </View>
