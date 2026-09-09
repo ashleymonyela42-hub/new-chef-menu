@@ -381,7 +381,7 @@ export default function App() {
                     </Text>
 
                     <Text style={styles.itemCourse}>
-                      📌 {item.course}
+                     {item.course}
                     </Text>
                   </View>
 
