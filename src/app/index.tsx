@@ -408,8 +408,7 @@ export default function App() {
                       deleteItem(originalIndex)
                     }
                   >
-                    <Text style={styles.deleteButtonText}>
-                      DELETE
+                    <Text style={styles.}>
                     </Text>
                   </TouchableOpacity>
                 </View>
