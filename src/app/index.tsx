@@ -398,7 +398,7 @@ export default function App() {
                     }
                   >
                     <Text style={styles.editButtonText}>
-                      ✏️ EDIT
+                     EDIT
                     </Text>
                   </TouchableOpacity>
 
