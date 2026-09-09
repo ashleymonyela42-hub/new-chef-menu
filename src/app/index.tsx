@@ -494,7 +494,7 @@ export default function App() {
 
         <View style={styles.courseStatRow}>
           <Text style={styles.courseStatName}>
-            🍔 Main Course
+           Main Course
           </Text>
           <Text style={styles.courseStatNumber}>
             {mainCourseCount}
