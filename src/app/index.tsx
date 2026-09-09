@@ -503,7 +503,7 @@ export default function App() {
 
         <View style={styles.courseStatRow}>
           <Text style={styles.courseStatName}>
-            🍰 Dessert
+           Dessert
           </Text>
           <Text style={styles.courseStatNumber}>
             {dessertCount}
