@@ -98,7 +98,7 @@ export default function App() {
 
   const renderHome = () => (
     <View style={styles.screen}>
-      <Text style={styles.title}>🍽️ MENU ITEMS</Text>
+      <Text style={styles.title}>MENU ITEMS</Text>
       
       {menuItems.length === 0 ? (
         <View style={styles.emptyContainer}>
