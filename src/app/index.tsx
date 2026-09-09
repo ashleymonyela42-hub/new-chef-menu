@@ -805,9 +805,6 @@ export default function App() {
     }
   };
 
-  // -----------------------------------------------------
-  // MAIN RETURN
-  // -----------------------------------------------------
 
   return (
     <SafeAreaView style={styles.appContainer}>
