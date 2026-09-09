@@ -784,10 +784,6 @@ export default function App() {
     );
   };
 
-  // -----------------------------------------------------
-  // SCREEN NAVIGATION
-  // -----------------------------------------------------
-
   const renderScreen = () => {
 
     switch (screen) {
