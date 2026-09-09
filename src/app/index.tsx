@@ -459,7 +459,7 @@ export default function App() {
         style={styles.screen}
         contentContainerStyle={styles.scrollContent}
       >
-        <Text style={styles.title}>📊 STATISTICS</Text>
+        <Text style={styles.title}> STATISTICS</Text>
 
         <View style={styles.statCard}>
           <Text style={styles.statNumber}>
