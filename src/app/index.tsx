@@ -404,7 +404,7 @@ export default function App() {
 
         style={styles.backButton}
         onPress={goHome}
-      >
+      
         <Text style={styles.backButtonText}>
           ← BACK TO HOME
         </Text>
