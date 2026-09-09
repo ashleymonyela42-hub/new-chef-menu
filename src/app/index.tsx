@@ -99,7 +99,6 @@ export default function App() {
     setScreen('add');
   };
 
-  // DELETE MENU ITEM
   const deleteItem = (index: number) => {
     Alert.alert(
       'Delete Menu Item',
@@ -150,12 +149,12 @@ export default function App() {
   // HOME SCREEN
   const renderHome = () => (
     <View style={styles.screen}>
-      <Text style={styles.logo}>🍽️</Text>
+      <Text style={styles.logo}></Text>
 
       <Text style={styles.title}>CHEF'S MENU MANAGER</Text>
 
       <Text style={styles.welcome}>
-        Manage your restaurant menu easily
+        MANAGE YOUR MENU ITEMS EASILY
       </Text>
 
       <View style={styles.homeButtons}>
