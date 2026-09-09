@@ -296,10 +296,7 @@ export default function App() {
     return true;
   };
 
-  // -----------------------------------------------------
-  // ADD MENU ITEM
-  // -----------------------------------------------------
-
+  
   const addMenuItem = () => {
 
     if (!validateForm()) {
