@@ -401,6 +401,7 @@ export default function App() {
                      EDIT
                     </Text>
                   </TouchableOpacity>
+                  
                    <TouchableOpacity
                     style={styles.deleteButton}
                     onPress={() => deleteItem(item.id)}
