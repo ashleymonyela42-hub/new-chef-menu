@@ -10,8 +10,16 @@ import {
   ScrollView
 } from 'react-native';
 
+interface MenuItem {
+  id: string;
+  dishName: string;
+  description: string;
+  course: string;
+  price: string;
+}
+
 export default function App() {
-  const [menuItems, setMenuItems] = useState([]);
+  const [menuItems, setMenuItems] = useState<MenuItem[]>([]);
   const [screen, setScreen] = useState('home');
   const [editingIndex, setEditingIndex] = useState(null);
   const [dishName, setDishName] = useState('');
