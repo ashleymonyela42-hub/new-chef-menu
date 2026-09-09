@@ -223,10 +223,7 @@ function MenuItemCard({
 
 export default function App() {
 
-  // -----------------------------------------------------
-  // APPLICATION STATE
-  // -----------------------------------------------------
-
+  
   const [screen, setScreen] = useState('home');
 
   const [menuItems, setMenuItems] = useState<MenuItem[]>([]);
