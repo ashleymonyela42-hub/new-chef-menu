@@ -89,7 +89,7 @@ export default function App() {
   };
 
   // GO TO EDIT SCREEN
-  const goToEdit = (item, index) => {
+  const goToEdit = (item: any, index: number) => {
     setDishName(item.dishName);
     setDescription(item.description);
     setCourse(item.course);
