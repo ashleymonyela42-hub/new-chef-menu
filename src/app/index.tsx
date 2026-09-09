@@ -14,8 +14,6 @@ import {
   TextInputProps,
   View,
 } from 'react-native';
-
-
 const COURSES = ['Starter', 'Main Course', 'Dessert'];
 
 type MenuItem = {
