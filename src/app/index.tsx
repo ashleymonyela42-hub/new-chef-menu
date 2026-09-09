@@ -392,10 +392,6 @@ export default function App() {
     (item) => item.course === 'Dessert'
   ).length;
 
-  // -----------------------------------------------------
-  // HOME SCREEN
-  // -----------------------------------------------------
-
   const HomeScreen = () => {
 
     return (
