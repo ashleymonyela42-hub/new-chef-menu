@@ -15,28 +15,6 @@ import {
   View,
 } from 'react-native';
 
-/*
-=========================================================
-CHEF'S MENU MANAGER
-Final PoE - React Native Mobile Application
-=========================================================
-Features:
-1. Add menu items
-2. View menu items
-3. Edit menu items
-4. Delete menu items
-5. Search menu items
-6. Filter by course
-7. Clear search/filter
-8. Display menu statistics
-9. Validation
-10. Success and error messages
-=========================================================
-*/
-
-// -------------------------------------------------------
-// COURSE OPTIONS
-// -------------------------------------------------------
 
 const COURSES = ['Starter', 'Main Course', 'Dessert'];
 
