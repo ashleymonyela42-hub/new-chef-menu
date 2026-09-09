@@ -402,31 +402,13 @@ export default function App() {
                     </Text>
                   </TouchableOpacity>
 
-                  <TouchableOpacity
-                    style={styles.deleteButton}
-                    onPress={() =>
-                      deleteItem(originalIndex)
-                    }
-                  >
-                    <Text style={styles.deleteButtonText}>
-                      🗑️ DELETE
-                    </Text>
-                  </TouchableOpacity>
-                </View>
-              </View>
-            );
-          }}
-        />
-      )}
-
-      <TouchableOpacity
         style={styles.backButton}
         onPress={goHome}
       >
         <Text style={styles.backButtonText}>
           ← BACK TO HOME
         </Text>
-      </TouchableOpacity>
+      
     </View>
   );
 
