@@ -201,7 +201,7 @@ export default function App() {
     >
       <Text style={styles.title}>
         {editingIndex !== null
-          ? 'EDIT MENU ITEM'
+          ? 'EDIT MENU ITEM'}
       </Text>
 
       <View style={styles.form}>
