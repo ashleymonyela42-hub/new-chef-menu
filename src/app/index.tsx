@@ -12,9 +12,9 @@ import {
 } from 'react-native';
 
 export default function App() {
-  const [menuItems, setMenuItems] = useState([]);
+  const [menuItems, setMenuItems] = useState<any[]>([]);
   const [screen, setScreen] = useState('home');
-  const [editingIndex, setEditingIndex] = useState(null);
+  const [editingIndex, setEditingIndex] = useState<number | null>(null);
 
   const [dishName, setDishName] = useState('');
   const [description, setDescription] = useState('');
