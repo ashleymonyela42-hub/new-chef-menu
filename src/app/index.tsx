@@ -200,10 +200,6 @@ function CoursePicker({ value, onChange }: CoursePickerProps) {
   );
 }
 
-// -------------------------------------------------------
-// MENU ITEM CARD
-// -------------------------------------------------------
-
 function MenuItemCard({
   item,
   onEdit,
